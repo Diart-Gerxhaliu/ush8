@@ -1,0 +1,36 @@
+
+
+.banner{
+    background-size: cover;
+    height: 90vh;
+    color: white;
+    
+}
+.services .banner .dark{
+    background-color: rgba(0, 0, 0, 0.33);
+    width: 100%;
+    height: 90vh;
+    align-content: center;
+
+}
+
+.services .banner h1{
+    font-size: 40px;
+}
+.services .banner .button, .services .banner   .text{
+    display: none;
+}
+.whatWeDo{
+    display: flex;
+    padding: 100px 0;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+.whatWeDo .box{
+    justify-content: center;
+    gap: 25px;
+}
+.whatWeDo .container.reverse button{
+    background-color: red;
+}
